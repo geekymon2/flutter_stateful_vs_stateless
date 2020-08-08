@@ -4,11 +4,9 @@
 
 This project is an example showing the difference between Stateful and Stateless Widgets.
 
-A few resources to get you started if this is your first Flutter project:
+Stateful Widget Example = homepage.dart
+Stateless Widget Example = splashpage.dart
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Geeky Mon2
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[<img src="https://github.com/geekymon2/social/blob/master/icons8-facebook-100.png"/>]
