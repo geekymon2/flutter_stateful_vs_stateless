@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_stateful_vs_stateless/splashpage.dart';
 
 import 'homepage.dart';
 
@@ -7,7 +8,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Flutter Tutorial',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -24,7 +25,8 @@ class App extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'Home Screen'),
+      home: MyHomePage(
+          title: "Flutter - Stateful and Stateless Widgets"),
     );
   }
 }
