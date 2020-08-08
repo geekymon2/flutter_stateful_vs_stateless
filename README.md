@@ -1,10 +1,8 @@
-# myfirstapp
-
-A new Flutter project.
+# Stateful vs Stateless Widgets Example
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is an example showing the difference between Stateful and Stateless Widgets.
 
 A few resources to get you started if this is your first Flutter project:
 

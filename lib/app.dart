@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'homepage.dart';
 
-class MyFirstApp extends StatelessWidget {
+class App extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
