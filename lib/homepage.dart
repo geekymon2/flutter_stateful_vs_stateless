@@ -10,7 +10,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  double _fontSize;
+  double _fontSize = 20;
   bool _isBold = false;
   bool _isItalic = false;
 
@@ -22,7 +22,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Center(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: <Widget>[
             DropdownButton(
                 value: _fontSize,
@@ -59,12 +59,16 @@ class _MyHomePageState extends State<MyHomePage> {
                     _isItalic = value;
                   });
                 }),
-            Text(
-              'Welcome to the Home Screen',
-              style: TextStyle(
-                  fontSize: _fontSize,
-                  fontWeight: _isBold ? FontWeight.bold : FontWeight.normal,
-                  fontStyle: _isItalic ? FontStyle.italic : FontStyle.normal),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text(
+                'Welcome to the Home Screen',
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                    fontSize: _fontSize,
+                    fontWeight: _isBold ? FontWeight.bold : FontWeight.normal,
+                    fontStyle: _isItalic ? FontStyle.italic : FontStyle.normal),
+              ),
             ),
           ],
         ),
