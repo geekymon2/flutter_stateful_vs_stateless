@@ -9,7 +9,7 @@ Stateless Widget Example = splashpage.dart
 
 ## Follow Geeky Mon2
 
-[![facebook]("https://github.com/geekymon2/social/blob/master/icons8-facebook-100.png")](https://www.facebook.com/Geeky-Mon2-106714194472450/)
+[![facebook]["https://github.com/geekymon2/social/blob/master/icons8-facebook-100.png"]][https://www.facebook.com/Geeky-Mon2-106714194472450/]
 
 <img src="https://github.com/geekymon2/social/blob/master/icons8-play-button-100.png"/>[youtube]
 
