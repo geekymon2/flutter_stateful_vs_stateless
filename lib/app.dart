@@ -25,8 +25,8 @@ class App extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(
-          title: "Flutter - Stateful and Stateless Widgets"),
+      home: MyHomePage(title: "Flutter - Stateful and Stateless Widgets"),
+      //home: SplashPage()
     );
   }
 }

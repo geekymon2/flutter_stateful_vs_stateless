@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class SplashScreen extends StatelessWidget {
+class SplashPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -14,7 +14,8 @@ class SplashScreen extends StatelessWidget {
           child: CircleAvatar(
               backgroundColor: Colors.amber,
               radius: 300.0,
-              child: Text("Splash",
+              child: Text("Splash Page. Stateless Widget example.",
+              textAlign: TextAlign.center,
                   style:
                       TextStyle(fontSize: 40.0, fontWeight: FontWeight.bold))),
         ),

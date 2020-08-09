@@ -16,6 +16,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
+    debugPrint("[BUILD] - MyHomePage");
+
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
@@ -48,6 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         ],
                         onChanged: (value) {
                           setState(() {
+                            debugPrint("[SETSTATE] - _fontSize to $value");
                             _fontSize = value;
                           });
                         }),
@@ -61,6 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       value: _isBold,
                       onChanged: (value) {
                         setState(() {
+                          debugPrint("[SETSTATE] - _isBold to $value");
                           _isBold = value;
                         });
                       }),
@@ -73,6 +77,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       value: _isItalic,
                       onChanged: (value) {
                         setState(() {
+                          debugPrint("[SETSTATE] - _isItalic to $value");
                           _isItalic = value;
                         });
                       }),
