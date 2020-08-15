@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_stateful_vs_stateless/splashpage.dart';
+//import 'package:flutter_stateful_vs_stateless/splashpage.dart';
 
 import 'homepage.dart';
 
